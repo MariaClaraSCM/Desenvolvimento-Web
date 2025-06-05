@@ -1,0 +1,7 @@
+Aula dada no dia 05/06/2025
+
+setTimuout - Executar uma vez um bloco de codigo depois de um intervalo de tempo.
+setInterval - Executa a função repetidemente.
+
+textContent para evitar a inserssão de dados maliciosos do sistema.
+innerHTML para colocar texto no sistema.

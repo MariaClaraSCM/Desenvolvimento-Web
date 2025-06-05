@@ -1,0 +1,83 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+#bloco2 {
+  background: #fff;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+}
+
+.bloco2-conteudo {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+
+.imagem img {
+  width: 200px;
+  height: auto;
+  border-radius: 10px;
+}
+
+.cronometro-box {
+  text-align: center;
+}
+
+h1 {
+  margin-bottom: 20px;
+  color: #e25353;
+}
+
+.buttons button {
+  margin: 5px;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  border: none;
+  border-radius: 5px;
+  background-color: #007bff;
+  color: white;
+  transition: background-color 0.3s;
+}
+
+.buttons button:hover {
+  background-color: #0056b3;
+}
+
+#cronometro {
+  font-size: 32px;
+  margin-top: 20px;
+  font-weight: bold;
+}
+
+#mensagem {
+  margin-top: 10px;
+  font-size: 18px;
+  color: #444;
+}
+
+.cor{
+  background-color: #e25353;
+}
+
+@media (max-width: 768px) {
+  .bloco2-conteudo {
+    flex-direction: column;
+  }
+
+  .imagem img {
+    width: 150px;
+  }
+}

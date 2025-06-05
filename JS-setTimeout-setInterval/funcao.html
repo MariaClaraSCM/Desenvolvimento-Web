@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Segundômetro</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <div id="bloco2">
+      <p id="data"></p>
+      <div class="bloco2-conteudo">
+        <div class="imagem">
+          <img src="https://static.vecteezy.com/system/resources/previews/016/763/867/non_2x/chronometer-timer-counter-free-vector.jpg" alt="Cronômetro" />
+        </div>
+        <div class="cronometro-box">
+          <h1>Segundômetro</h1>
+          <div class="buttons">
+            <button onclick="iniciar()">Iniciar</button>
+            <button onclick="parar()">Parar</button>
+            <button onclick="zerar()">Zerar</button>
+          </div>      
+          <p id="cronometro">0</p>
+          <p id="mensagem"></p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

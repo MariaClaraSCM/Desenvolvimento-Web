@@ -1,0 +1,10 @@
+Aula de JQuery do dia 05/06/2025.
+
+Download do jquery:
+pela cdn: vc pega a cdn pronta do site. só tem acesso pela internet(<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>)
+Por Download: VocÊ aperta no download, copia o nome e cria um arquivo, copia o codigo todo e cola dentro do arquivo.
+
+Faz com que, depois que todo o documento seja carregado, o jquery comece a rodar.
+$(document).ready(function(){
+    //metodos jquery
+})
